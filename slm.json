@@ -1,0 +1,12 @@
+{
+    "headers": {
+        "zipconf.h": "build/zipconf.h",
+        "zip.h": "libzip/lib/zip.h"
+    },
+    "binaries": {
+        "unix": {
+            "libzip.so": "build/lib/libzip.so.5.2"
+        }
+    },
+    "build": "./build.sh"
+}
